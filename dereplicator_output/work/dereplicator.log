@@ -1,0 +1,23 @@
+2022-03-03 12:20:42	INFO: Command line: ./dereplicator.py -o ../../var-scoring/dereplicator_output -d ../../var-scoring/pnp/pnpdatabase -t 1 ../../var-scoring/gnps_positive_MH_unique/gnps_positive_MH_unique.mgf 
+2022-03-03 12:20:42	INFO: Starting Dereplicator in 1 thread
+2022-03-03 12:20:42	INFO:   Parameters are saved to ../../var-scoring/dereplicator_output/work/params.tsv
+2022-03-03 12:20:42	INFO:   Total number of spectra: 1 
+2022-03-03 12:20:42	INFO: Starting: ../../var-scoring/gnps_positive_MH_unique/gnps_positive_MH_unique.mgf --> spectra-00000
+2022-03-03 12:20:42	INFO:   Running: /home/nikitos/varquest/dereplicator/cycloquest_minimal/bin/dereplicate "../../var-scoring/dereplicator_output/work/spectra-00000.mgf" "../../var-scoring/pnp/pnpdatabase" "../../var-scoring/pnp/pnpdatabase/library.info" --configs_dir "../../var-scoring/dereplicator_output/work/configs" --product_ion_thresh 0.02 --pm_thresh 0.02 --max_charge 2 --isotope 0 > "../../var-scoring/dereplicator_output/work/spectra-00000_dereplicator.log"
+2022-03-03 12:20:47	INFO: Run on spectra-00000 (gnps_positive_MH_unique.mgf) finished correctly (11841 scans processed). PSMs found: 356 (significant: 284); visualizations generated: 0
+2022-03-03 12:20:47	INFO: 
+
+  Summary (saved to ../../var-scoring/dereplicator_output/summary.tsv):
+    Number of spectrum files: 1
+    Number of spectrum scans: 11841
+      out of them: 0 failed conversion to mgf
+      out of them: 0 failed processing
+    Found PSMs: 356
+      out of them: 284 significant (p-value < 1e-10)
+      out of them: 0 visualizations generated
+
+  Matches are in ../../var-scoring/dereplicator_output/all_matches.tsv and significant_matches.tsv
+  Log is in ../../var-scoring/dereplicator_output/work/dereplicator.log
+
+  Elapsed time: 0:00:04.732690
+

@@ -1,0 +1,3 @@
+./dereplicator.py -o ../../var-scoring/dereplicator_output -d ../../var-scoring/pnp/pnpdatabase --nps ../../var-scoring/gnps_positive_MH_unique/gnps_positive_MH_unique.mgf
+
+./dereplicator.py -o ../../var-scoring/dereplicator_output -d ../../var-scoring/pnp/pnpdatabase ../../var-scoring/gnps_positive_MH_unique/gnps_positive_MH_unique.mgf
