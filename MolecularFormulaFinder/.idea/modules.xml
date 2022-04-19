@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MFFinder.iml" filepath="$PROJECT_DIR$/.idea/MFFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MolecularFormulaFinder.iml" filepath="$PROJECT_DIR$/.idea/MolecularFormulaFinder.iml" />
     </modules>
   </component>
 </project>
