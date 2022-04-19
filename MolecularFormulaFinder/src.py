@@ -60,14 +60,14 @@ class PNP:
 class Node:
 
     def __init__(self, pred):
-        self.childs = dict()
+        self.childs = {}
         self.leaf = False
         self.pred = pred
         self.max_val = 0
 
     def __to_leaf(self):
         self.leaf = True
-        self.vals = dict()
+        self.vals = {}
 
     def insert(self, row):
         if row.shape[0] == 1:

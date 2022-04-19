@@ -10,7 +10,7 @@ path_pnpdb = '../../side_sources/pnpdatabase/'
 
 pnps = []
 replacements = []
-amino_acids = []
+amino_acids = set()
 
 with open(path_pnpdb + 'pnp_AAGraphs.txt', 'r') as file:
     for ind in range(LIB_SIZE):
@@ -50,7 +50,7 @@ with open(path_pnpdb + 'pnp_AAGraphs.txt', 'r') as file:
         pnps.append(PNP(formula, mass, multiedges, structure))
 
 for ind1 in range(LIB_SIZE):
-    amino_acids.extend(list(pnps[ind1].aa_decomp().keys()))
+    amino_acids.update(list(pnps[ind1].aa_decomp().keys()))
     for ind2 in range(LIB_SIZE):
         p1 = pnps[ind1]
         p2 = pnps[ind2]
