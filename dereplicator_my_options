@@ -1,5 +1,0 @@
-./dereplicator.py -o ../../var-scoring/dereplicator_output -d ../../var-scoring/pnp/pnpdatabase --nps ../../var-scoring/gnps_positive_MH_unique/gnps_positive_MH_unique.mgf
-
-./dereplicator.py -o ../../var-scoring/dereplicator_output -d ../../var-scoring/pnp/pnpdatabase ../../var-scoring/gnps_positive_MH_unique/gnps_positive_MH_unique.mgf
-
-./dereplicator.py --nps -o /home/nikitos/varquest/var-scoring/dereplicator_gnps_positive_MH_unique_against_itself -d /home/nikitos/varquest/side_sources/gnps_positive_MH_unique/db /home/nikitos/varquest/side_sources/gnps_positive_MH_unique/gnps_positive_MH_unique.mgf -P '--min_num_comp 0'
